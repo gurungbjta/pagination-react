@@ -31,7 +31,8 @@ function App() {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-primary mb-3">My Pagination</h1>
+      <h1 className="text-primary mb-3">My Pagination Posts</h1>
+      <h2 className="text-secondary mb-3">Extra heading</h2>
       <Posts posts={currPosts} loading={loading} />
       <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} changePageNum={changePageNum} />
     </div>
